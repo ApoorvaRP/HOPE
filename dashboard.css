@@ -1,0 +1,440 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+  display: flex;
+}
+nav{
+  position: left;
+  top: 0;
+  bottom: 0;
+  height: 80vh;
+  left:0;
+  background-color: #5900b3;;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a{
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+  color:black
+}
+a:hover{
+  background: #eee;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+
+/* Main Section */
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+.main-skills{
+  display: flex;
+  margin-top: 20px;
+}
+.main-skills .card{
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.main-skills .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-skills .card p{
+  font-size: 12px;
+}
+.main-skills .card button{
+  background: orangered;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.main-skills .card button:hover{
+  background: rgba(223, 70, 15, 0.856);
+}
+.main-skills .card i{
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* Courses */
+.main-course{
+  margin-top:20px ;
+  text-transform: capitalize;
+}
+.course-box{
+  width: 100%;
+  height: 300px;
+  padding: 10px 10px 30px 10px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.course-box ul{
+  list-style: none;
+  display: flex;
+}
+.course-box ul li{
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.course-box ul .active{
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.course-box .course{
+  display: flex;
+}
+.box{
+  width: 33%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.box p{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.box button{
+  background: #000;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.box button:hover{
+  background: rgba(0, 0, 0, 0.842);
+}
+.box i{
+  font-size: 7rem;
+  float: right;
+  margin: -20px 20px 20px 0;
+}
+.html{
+  color: rgb(25, 94, 54);
+}
+.css{
+  color: rgb(104, 179, 35);
+}
+.js{
+  color: rgb(28, 98, 179);
+}
+#main-footer{
+    background: #5900b3;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+#navbar.container{
+    color:#fff;
+    text-align: right;
+}
+footer{
+  background: #5900b3;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.container{
+    max-width: 1100px;
+    margin:auto;
+   
+}
+.container1{
+    max-width: 1100px;
+    margin:auto;
+    background-color: #5900b3;
+}
+
+#logo{
+    float:left; 
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.lead{
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 07px 16px;
+    background: rgb(89, 0, 179);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 03px;
+    color:#fff;
+    transition: all 0.3;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Close Utality Classes */
+
+#navbar{
+    background: #5900b3;
+    overflow: auto;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #4397EA;
+    transition: all 0.5s;
+}
+
+/* Showcase Area */
+#showcase{
+    margin: top 0;
+    center center/cover;
+    height: 250px;
+    color: #fff;
+    text-align: left;
+}
+#showcase1{
+    center center/cover;
+    height: 400px;
+    color: #fff;
+}
+#showcase2{
+    center center/cover;
+    height: 100px;
+    color: #fff;
+}
+
+.showcase-content{
+    padding-top: 50px;
+    color: #333;
+    
+}
+
+.showcase-content h2{
+   font-size: 60px;
+   line-height: 1.9em;
+ }
+
+ .showcase-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ .showcase-content .btn:hover{
+    background: #4397EA;
+    border: none;
+    color:#fff;
+    transition: all 0.3s;
+ }
+
+/* About Section */
+
+ .about{
+    height: 350px;
+    margin-top: 40px;
+ }
+ #services .box{
+    float: left;
+    width: 33.33%;
+    padding: 45px;
+    text-align: center;
+    margin: 30px 0px;
+ }
+
+ .bg-primary{
+ background: #265ede;
+    color: #fff;
+ }
+
+ .light-gray{
+    background: #ddd;
+ }
+
+.auth{
+    float: left;
+    height: 500px;
+    width: 33%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 01px;
+}
+
+.auth img{
+    border-radius: 50%;
+}
+
+.names{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#contact h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+    margin-bottom: 35px;
+}
+
+#contact h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact textarea{
+    height: 200px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: #265ede;
+}
+
+
+/* Footer */
+
+#main-footer{
+    
+    background: #5900b3;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+
+.container0{
+   text-align: center; 
+}
