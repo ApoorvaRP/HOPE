@@ -50,7 +50,7 @@ nav{
   position: left;
   top: 0;
   bottom: 0;
-  height: 80vh;
+  height: 50vh;
   left:0;
   background-color: #5900b3;;
   width: 250px;
@@ -621,8 +621,8 @@ a{
   cursor: pointer;
   si
 }
-.btn-primary:hover{
-  color: white;
+.btn-primary.hover{
+  color:white;
   background-color: #ff4757;
 }
 .img-responsive{
@@ -658,3 +658,6 @@ input {
 .search {
   width: 75%;
 }
+
+
+
