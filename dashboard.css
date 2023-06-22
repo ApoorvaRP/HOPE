@@ -647,3 +647,19 @@ a{
 .img-curve{
   border-radius: 15px;
 }
+
+
+form {
+  width: 400px;
+  margin: auto;
+  margin-top: 250px;
+ 
+}
+input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+.search {
+  width: 75%;
+}
